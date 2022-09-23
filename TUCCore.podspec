@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TUCCore"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "TUCCore for iOS"
 
   spec.description  = "A short description of TuSDK"
@@ -32,5 +32,12 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/futurearn/TUCCore.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
 
-  spec.vendored_frameworks = ["TuSDKPulse.framework", "TuSDKPulseCore.framework"]
+  spec.subspec 'Core' do |core|
+
+    core.vendored_frameworks = ["TuSDKPulse.framework", "TuSDKPulseCore.framework"]
+  end
+
+  spec.subspec 'Eva' do |eva| 
+    eva.vendored_frameworks = 'TuSDKPulseEva.framework'
+  end
 end
