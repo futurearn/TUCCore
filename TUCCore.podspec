@@ -27,7 +27,8 @@ Pod::Spec.new do |spec|
 
   spec.author       = { 'TuSDK Team' => 'support@tusdk.com' }
   spec.platform     = :ios, "9.0"
-  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   spec.source       = { :git => "https://github.com/futurearn/TUCCore.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
 
