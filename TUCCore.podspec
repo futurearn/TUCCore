@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TUCCore"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "TUCCore for iOS"
 
   spec.description  = "A short description of TuSDK"
@@ -41,8 +41,10 @@ Pod::Spec.new do |spec|
     eva.vendored_frameworks = 'TuSDKPulseEva.framework'
   end
 
-  spec.subspec 'VE' do |ve| 
+  spec.subspec 'Editor' do |editor| 
 
-    ve.vendored_frameworks = 'TuSDKPulseEditor.framework'
+    editor.vendored_frameworks = 'TuSDKPulseEditor.framework'
   end 
+
+
 end
