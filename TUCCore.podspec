@@ -46,5 +46,24 @@ Pod::Spec.new do |spec|
     editor.vendored_frameworks = 'TuSDKPulseEditor.framework'
   end 
 
+  spec.subspec 'Filter' do |filter| 
+    filter.vendored_frameworks = 'TuSDKPulseFilter.framework'
+  end
+
+  spec.subspec 'Camera' do |camera| 
+    camera.vendored_frameworks = 'TuCamera.framework'
+  end
+
+  spec.subspec 'TuViews' do |view| 
+    view.vendored_frameworks = 'TuViews.framework'
+  end
+
+  spec.subspec 'GeeV1' do |geev1| 
+    geev1.vendored_frameworks = 'TuSDKGeeV1.framework'
+  end
+
+  spec.subspec 'GeeV2' do |geev2| 
+    geev2.vendored_frameworks = 'TuSDKGeeV2.framework'
+  end
 
 end
