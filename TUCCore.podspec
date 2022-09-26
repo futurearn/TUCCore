@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TUCCore"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "TUCCore for iOS"
 
   spec.description  = "A short description of TuSDK"
@@ -50,7 +50,7 @@ Pod::Spec.new do |spec|
     filter.vendored_frameworks = 'TuSDKPulseFilter.framework'
   end
 
-  spec.subspec 'Camera' do |camera| 
+  spec.subspec 'TuCamera' do |camera| 
     camera.vendored_frameworks = 'TuCamera.framework'
   end
 
