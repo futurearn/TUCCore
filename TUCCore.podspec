@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TUCCore"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "TUCCore for iOS"
 
   spec.description  = "A short description of TuSDK"

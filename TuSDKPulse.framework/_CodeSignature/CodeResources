@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		NlzBrDRZ0SNeiF4+O0wxXWF/BU0=
+		</data>
 		<key>Frameworks/TuSDKPulseCore.framework/Info.plist</key>
 		<data>
 		I866ZsX+NyAg3GtOEfvBcobmGis=
 		</data>
 		<key>Frameworks/TuSDKPulseCore.framework/TuSDKPulseCore</key>
 		<data>
-		0BZICCNW3QXNXzcYESeOsP2LoUs=
+		89hJxoMwXAN/YJMbsr07GpNUTQQ=
 		</data>
 		<key>Frameworks/TuSDKPulseCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -122,11 +126,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0BZICCNW3QXNXzcYESeOsP2LoUs=
+			89hJxoMwXAN/YJMbsr07GpNUTQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			JTNrnbTZsu2HkUURFJgaKESv6GNWPCED1Pe7h0i+aTc=
+			j12kT/yoSwkn7Slat/ieaueWPtGD0eeDH2/62J8QO5o=
 			</data>
 		</dict>
 		<key>Frameworks/TuSDKPulseCore.framework/_CodeSignature/CodeResources</key>

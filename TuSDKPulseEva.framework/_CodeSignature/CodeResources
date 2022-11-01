@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		RXrZbS0gek37kspgtf/3xBHA5r4=
+		</data>
 		<key>CMakeLists.txt</key>
 		<data>
 		sp7TeTXJFfovXoPJsUyuUtWjdfc=
@@ -14,7 +18,7 @@
 		</data>
 		<key>Headers/TUPEvaDirector.h</key>
 		<data>
-		2tYzUpsq+DLEYePyV7IIRjRYuRA=
+		MO0vKb2ROsJgy2KG2FK930SXUzk=
 		</data>
 		<key>Headers/TUPEvaModel.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pgTdFepZ7bBd1eTjeAOT92iqvVA=
+		bheKMz3wTI4j4x1w7Bedj4YU+8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,11 +73,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2tYzUpsq+DLEYePyV7IIRjRYuRA=
+			MO0vKb2ROsJgy2KG2FK930SXUzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+4gaB9rrkQPEttMwVjHSEUfOS/a07TuzTd5LokK5/bc=
+			cqxWInyoSVa62/jxLkvWq4nfhQqiXMY251TaJNAtUh8=
 			</data>
 		</dict>
 		<key>Headers/TUPEvaModel.h</key>
